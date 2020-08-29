@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_background {
+    background-color: whitesmoke !important;
+    box-shadow: 0.5px 0.5px 0.5px #bcb3b3;
+}
+
+.nav-item, .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: navy !important;
+}
+
+.nav-link:hover {
+    color: palevioletred !important;
+    border-bottom: 2px solid palevioletred;
+}
+
+.first-nav{
+    background-color: whitesmoke;
+}
+.first-nav .navbar-brand{
+    color: navy;
+    font-weight: 600;
+    font-size: 24px;
+}
+.first-nav .navbar-brand .name1{
+    color: palevioletred;
+}
+.first-nav .navbar-brand .name2{
+    color: navy;
+    font-size: 28px;
+    font-weight: 600;
+}
+.first3{
+    background-color: rgb(241, 240, 237);
+    margin-top: 60px;
+    height: auto;
+}
+.first{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.first4{
+    padding-top: 50px;
+}
+.first4 .btn{
+    outline-color: navy;
+}
+.first4 h3{
+    color: navy;
+}
+.first4{
+    color: palevioletred;
+    line-height: 2rem;
+}
+.iconss{
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 50px;
+    height: 50px;
+    color: navy;
+}
+#bio{
+    margin-bottom: 0px !important;
+}
+
+.hire_btn {
+    color: whitesmoke;
+    background-color: navy;
+    outline: none;
+    border: none;
+}
+
+.hire_btn:hover {
+    color: navy;
+    background-color: whitesmoke;
+    outline: none;
+    border: 2px solid navy;
+}
+
+.hi {
+    font-weight: 700;
+    font-size: 50px;
+}
+.about2{
+    line-height: 2rem;
+}
+
+#why_hire {
+    color: palevioletred;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.about{
+    background-color: navy;
+}
+
+.desc {
+    color: whitesmoke;
+    line-height: 1.5rem !important;
+}
+
+#about_text {
+    color: whitesmoke !important;
+    padding-bottom: 60px;
+    text-align: center;
+    /* font-size: 20px; */
+}
+
+.download_btn {
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+.download_btn:hover {
+    color: palevioletred;
+    border: 2px solid palevioletred;
+    background-color: navy !important;
+}
+.image img{
+    border-radius: 30px;
+    /* padding-bottom: 20px; */
+}
+.hire{
+    /* padding-top: 20px; */
+    padding-top: 30px;
+}
+
+#skills_p{
+    padding-top: 30px;
+    color: palevioletred;
+    text-align: center;
+}
+#skills_h2{
+    margin-top: -10px;
+    color: navy;
+    text-align: center;
+    font-weight: 900;
+}
+.skills_rate{
+    padding-top: 30px;
+}
+
+.rate {
+    color: #333333;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding-top: 20px;
+}
+
+.rate_text h5{
+    color: navy;
+    padding-top: 15px;
+}
+.skills{
+    padding-bottom: 60px;
+}
+#portfolio{
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+#port_p{
+    padding-top: 20px;
+    color: navy;
+    text-align: center;
+    
+}
+
+#port_h2{
+    color: palevioletred;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    font-weight: 900;
+}
+
+.port_card .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .port_card .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.card_content {
+    text-align: center; 
+    padding: 15px; 
+    color: navy;
+    height: 220px;
+}
+
+.card2 {
+    margin: 20px;
+}
+
+.explore {
+    text-align: center;
+}
+
+.explore_btn {
+    color: whitesmoke;
+    background-color: palevioletred;
+    outline: none;
+    border: none;
+}
+
+.explore_btn:hover {
+    color: palevioletred;
+    background-color: whitesmoke;
+    outline: none;
+    border: 2px solid palevioletred;
+}
+
+.what {
+    background-color: whitesmoke;
+    height: auto;
+    padding: 50px;
+    line-height: 1.5rem;
+    color: navy;
+}
+
+.lapi {
+    color: palevioletred;
+    font-size: 3rem;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.what_do {
+    padding-bottom: 20px;
+    color: palevioletred !important;
+    font-weight: 900;
+}
+
+.paint {
+    color: navy;
+    font-size: 3rem;
+    background-color: rgba(0,0,0,0.2);;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.headd {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.contact {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #bcb3b3;
+}
+
+.major {
+    padding: 40px;
+    text-align: center;
+    overflow: inherit;
+}
+
+.email {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+.footer {
+    padding: 50px 50px 20px 50px;
+    background-color: navy;
+}
+
+.the_icons {
+    background-color: #bcb3b3;
+    border-radius: 50px;
+    /* padding: 20px; */
+}
+
+.footter_icon, i {
+    text-align: center;
+}
+
+.footter_txt {
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 0px !important;
+    text-decoration: none;
+}
+
+.sec {
+    text-align: center;
+}
+
+.footter_txt:hover {
+    color: #bcb3b3;
+    text-decoration: none;
+}
+
+.sec_div {
+    padding-top: 20px !important;
+}
+
+.copy {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.card_image_img {
+    width: 150px;
+    height: 150px;
+}
+
+.card_image {
+    background-color:#e5e5e5 !important;
+    /* justify-self: center; */
+    text-align: center;
+    padding: 10px;
+}
+
+.my_image {
+    border-radius: 20px;
+}
