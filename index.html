@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1f851fdc04.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <title>Rihanat's Portfolio</title>
@@ -50,9 +53,9 @@
                     <h3>I DESIGN AND BUILD USER INTERFACE.</h3>
                     <P id="bio">I am a creative UI/UX designer and Frontend developer who loves working on diverse projects.<br> Outside work I love adventures and listening to good music.</P>
                     <div class="container">
-                        <a href="#"><i class="fa fa-github iconss" aria-hidden="true"></i></a> 
-                        <a href="#"><i class="fa fa-linkedin iconss justify content-start" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-dribbble iconss justify content-start" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Rihanat"><i class="fa fa-github iconss" aria-hidden="true"></i></a> 
+                        <a href="linkedin.com/in/rianat-abbas"><i class="fa fa-linkedin iconss justify content-start" aria-hidden="true"></i></a>
+                        <a href="http://dribbble.com/rihanat"><i class="fa fa-dribbble iconss justify content-start" aria-hidden="true"></i></a>
                     </div>
                     <button class="btn btn-outline-primary hire_btn">HIRE ME</button>
                 </div>
@@ -67,15 +70,18 @@
     <div class="container-fluid about">
         <div class="container p-5 about2">
             <div>
-                <h2 id="about_text">About me</h2>
+                <h2 id="about_text" data-aos="fade-down-right" data-aos-duration="2000">About me</h2>
             </div>
             <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 image">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 image" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                         <img src="images/hire2.jpg" width="100%" height="380px">
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hire">
-                        <h2 id="why_hire">A bit about me</h2>
-                        <div class="desc">
+                        <h2 id="why_hire" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">A bit about me</h2>
+                        <div class="desc" data-aos="zoom-in-left" data-aos-duration="2000">
                             <p>I am a creative UI/UX designer and Frontened developer passionate about creating a user friendly design that makes people lives easy by implementing it to a responsive website.</p>
                             <p> I have designed some personal projects with good user interface and the best user experience. I'm open for collaboration, internship and entry-level position. I am diligent and genuinely willing to learn.</p>
                             <button class="btn btn-outline-primary download_btn">DOWNLOAD CV &nbsp; &nbsp;<i class="fa fa-download" aria-hidden="true"></i>
@@ -89,12 +95,12 @@
     <div class="container-fluid what">
         <div class="container">
             <div>
-                <h2 class="text-center what_do">What I Do</h2>
+                <h2 class="text-center what_do" data-aos="fade-up-left">What I Do</h2>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 front_end" data-aos="fade-right" data-aos-duration="2000">
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" >
                             <i class="fa fa-laptop lapi" aria-hidden="true"></i>
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
@@ -106,7 +112,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ui_ux" data-aos="fade-left" data-aos-duration="2000">
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <i class="fa fa-paint-brush paint" aria-hidden="true"></i>
@@ -126,10 +132,10 @@
 
 
    <div class="container skills">
-    <p id="skills_p">Expertise</p>
-    <h2 id="skills_h2">Special Skills</h2>
+    <p id="skills_p" data-aos="zoom-in-left" data-aos-duration="2000">Expertise</p>
+    <h2 id="skills_h2" data-aos="zoom-in-left" data-aos-duration="2000">Special Skills</h2>
    <div class="row skills_rate">
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 rate">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 rate" data-aos="zoom-out" data-aos-duration="2000" >
             <p>
                 Here are some of the skills I have acquired in the last few months and I have been improving 
                 web and mobile experiences of individuals with the rating of how good I can use them. I have 
@@ -143,57 +149,43 @@
                 in order to improve on the skills
             </p>
         </div>
-    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12" data-aos="zoom-in-right" data-aos-duration="2000">
         <div class="rate_text">
-            <h5 >HTML</h5>
-            <div class="progress">
-                <div class="htm progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                80%
-                </div>
+
+            <h5 ><i class="fas fa-palette"></i> &nbsp;&nbsp; UI/UX DESIGN</h5>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;UX Research</p>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;Collaboration</p>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;wireframing and UI prototyping</p>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;UX Writing</p>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;Visual Communication</p>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;User Empathy</p>
+            <p><i class="fa fa-paint-brush"></i> &nbsp;&nbsp;Interaction Design</p>
+            <P class="figma"><strong>Tools : <i class="fab fa-figma"></i>&nbsp;&nbsp; Figma</strong></P>
+            </p>
+            <div class="rate_text">
+                    <h5 ><i class="fab fa-html5"></i> &nbsp;&nbsp; HTML</h5>
             </div>
             <div class="rate_text">
-                <h5>CSS</h5>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                    70%
-                    </div>
-                </div>
+                    <h5 > <i class="fab fa-css3-alt"></i> &nbsp;&nbsp; CSS</h5>
             </div>
             <div class="rate_text">
-                <h5>Bootstrap</h5>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                        50%
-                    </div>
-                </div>
+                    <h5 ><i class="fab fa-bootstrap"></i> &nbsp;&nbsp; BOOTSTRAP</h5>
             </div>
                 <div class="rate_text">
-                    <h5>JavaScript</h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:30%">
-                            30%
-                        </div>
-                    </div>
+                        <h5 ><i class="fab fa-js-square"></i> &nbsp;&nbsp;JAVASCRIPT</h5>
                 </div>
-                <div class="rate_text">
-                    <h5>Figma</h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            70%
-                        </div>
-                    </div> 
-                </div>      
        </div>
     </div>
    </div>
    </div>
    <div class="container-fluid" id="portfolio">
         <div class="container">
-            <p id="port_p">Portolios</p>
-            <h2 id="port_h2">Recent Projects</h2>
+            <p id="port_p"  data-aos="fade-right" data-aos-duration="2000">Portolios</p>
+            <h2 id="port_h2"  data-aos="fade-right" data-aos-duration="2000">Recent Projects</h2>
             <div class="row justify-content-center port_card">
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 card2">
-                    <div class="card" style="width:100%;">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 card2" data-aos="zoom-in-left" data-aos-duration="2000">
+                  <a href="https://www.figma.com/file/h1IhYH3dQjIfetcmQCYqTL/AHO?node-id=0%3A1">  
+                      <div class="card" style="width:100%;">
                         <div class="card_image">
                             <img class="card_image_img" src="images/aho.png" alt="Avatar">
                         </div>
@@ -205,8 +197,10 @@
                             </p> 
                         </div>
                     </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 card2">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 card2" data-aos="zoom-out" data-aos-duration="2000">
+                    <a href="https://www.figma.com/file/SONfYo8FyzBp68fxobFga6/Plover-Insurance-Company?node-id=9%3A1">
                     <div class="card" style="width:100%;">
                         <div class="card_image">
                             <img class="card_image_img" src="images/logo.png" alt="Avatar">
@@ -219,8 +213,10 @@
                             </p> 
                         </div>
                     </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 card2">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 card2"  data-aos="zoom-in-right" data-aos-duration="2000">
+                    <a href="https://www.figma.com/file/NXk6jn8tzRtI6pbIJ7g3PF/AFIDE?node-id=0%3A1">
                     <div class="card" style="width:100%;">
                         <div class="card_image">
                             <img class="card_image_img" src="images/afiid.png" alt="Avatar">
@@ -233,10 +229,11 @@
                             </p> 
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
-            <div class="explore m-3">
-                <button class="btn btn-outline-primary explore_btn">
+            <div class="explore m-3" >
+                <button class="btn btn-outline-primary explore_btn" data-aos="fade-down-right" data-aos-duration="2000">
                     Explore Projects
                 </button>
             </div>
@@ -245,7 +242,9 @@
    </div>
    <div class="container-fluid">
     <div class="container major">
-        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 contact" id="con">
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 contact" id="con" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
 
             <p style="color: navy;"><strong>Have any project in mind? </strong>
                 <Span style="color: palevioletred;"> Let's talk</Span>
@@ -263,13 +262,13 @@
             <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12 the_icons">
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3 footter_icon">
-                        <a href="#"><i class="fa fa-github iconss" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Rihanat"><i class="fa fa-github iconss" aria-hidden="true"></i></a>
                     </div>
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3 footter_icon">
-                        <a href="#"><i class="fa fa-linkedin iconss justify content-start" aria-hidden="true"></i></a>
+                        <a href="linked.com/in/rianat-abbas"><i class="fa fa-linkedin iconss justify content-start" aria-hidden="true"></i></a>
                     </div>
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3 footter_icon">
-                        <a href="#"><i class="fa fa-dribbble iconss justify content-start" aria-hidden="true"></i></a>
+                        <a href="https://dribbble.com/rihanat"><i class="fa fa-dribbble iconss justify content-start" aria-hidden="true"></i></a>
                     </div>
                     <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3 footter_icon">
                         <a href="https://www.twitter.com/rihanat_riri"><i class="fa fa-twitter iconss justify content-start" aria-hidden="true"></i></a>
@@ -302,6 +301,9 @@
     </div>
     
 </div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
 </html>
