@@ -157,6 +157,9 @@
     color: navy;
     padding-top: 15px;
 }
+.figma{
+    color:palevioletred;
+}
 .skills{
     padding-bottom: 60px;
 }
@@ -327,4 +330,23 @@
 
 .my_image {
     border-radius: 20px;
+}
+@media (max-width: 560px){
+    .ui_ux{
+        margin-top:30px;
+        text-align: center;
+    }
+    .front_end{
+        text-align: center;
+    }
+    .rate_text{
+        text-align: center;
+    }
+    .lapi{
+        margin-bottom: 15px;
+        
+    }
+    .paint{
+        margin-bottom: 15px;
+    }
 }
